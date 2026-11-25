@@ -1,7 +1,9 @@
-import { SettingsTabs } from "@/components/SettingsTabs";
+import { SettingsTabs } from "@/components/SettingsTabs"
 import * as Input from '@/components/Input'
 import * as FileInput from '@/components/Form/FileInput'
-import { Mail } from "lucide-react";
+import { Mail } from "lucide-react"
+import { Select } from "@/components/Form/Select"
+
 
 
 export default function Home() {
@@ -92,7 +94,7 @@ export default function Home() {
             >
               Country
             </label>
-              <div></div>
+              <Select />
           </div>
 
 
