@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@formkit/auto-animate':
+        specifier: ^0.11.0
+        version: 0.11.0
       '@radix-ui/react-select':
         specifier: ^2.4.1
         version: 2.4.1(@types/react-dom@18.2.7)(@types/react@18.2.17)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
@@ -115,6 +118,9 @@ packages:
 
   '@floating-ui/utils@0.2.12':
     resolution: {integrity: sha512-HpCo8tmWzLVad5s2d19EhAz5zqrrQ6s69qd6moPMQvkOuSwDT1YgRfWSVuc4ennqrgv3OHppiOGMQ7oC13yIww==}
+
+  '@formkit/auto-animate@0.11.0':
+    resolution: {integrity: sha512-UgxBCHi9eh+PvDbuh+E8tLuqIjhewypZ6ueDFSu8cf3BjdGmTUcrt0AGQzKzoZ/TADlX0vS1xQftZpKx084Wpw==}
 
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
@@ -2473,6 +2479,8 @@ snapshots:
       react-dom: 18.2.0(react@18.2.0)
 
   '@floating-ui/utils@0.2.12': {}
+
+  '@formkit/auto-animate@0.11.0': {}
 
   '@humanwhocodes/config-array@0.11.14(supports-color@7.2.0)':
     dependencies:
